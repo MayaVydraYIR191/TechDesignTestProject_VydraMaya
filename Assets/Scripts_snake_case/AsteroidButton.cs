@@ -1,5 +1,7 @@
 using UnityEngine;
 
+namespace Snake_Case
+{
 public class AsteroidButton : MonoBehaviour
 {
     [SerializeField] private GameObject button;
@@ -8,4 +10,5 @@ public class AsteroidButton : MonoBehaviour
         button.SetActive(true);
     }
 
+}
 }
