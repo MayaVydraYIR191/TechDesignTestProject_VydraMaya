@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+namespace Snake_Case
+{
 public class ButtonWork_snake_case : MonoBehaviour
 {
     public void NextScene()
@@ -12,4 +14,5 @@ public class ButtonWork_snake_case : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+}
 }
