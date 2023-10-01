@@ -1,5 +1,7 @@
 using UnityEngine;
 
+namespace Snake_Case
+{
 public class FallBird_snake_case : MonoBehaviour
 {
     private Animator anim;
@@ -17,4 +19,5 @@ public class FallBird_snake_case : MonoBehaviour
         au.Play();
     }
 
+}
 }
